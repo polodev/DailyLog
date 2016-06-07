@@ -1,0 +1,1 @@
+1. It took much time to debug a simple typo error. Instead of function I wrote "funtion", Here c was missing. I didn't look to the syntax highlighting carefully. I sould more careful from next time to get rid of these error
