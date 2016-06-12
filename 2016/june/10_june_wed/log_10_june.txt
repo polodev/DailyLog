@@ -1,0 +1,3 @@
+Error react js / ES6
+1. I import a component from 'components' with out {}. so it suffers me a lot
+import {component} from 'components'
