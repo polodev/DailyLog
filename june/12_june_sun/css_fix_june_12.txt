@@ -1,4 +1,4 @@
-//css hacks to center a Image inside a div via bootstrap helper class
+//css tricks to center a Image inside a div via bootstrap helper class
 <div class="center-block">
 <img src="img/file.png" class="img-responsive" alt="Responsive Image">
 </div>
