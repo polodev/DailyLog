@@ -1,0 +1,13 @@
+16_june
+==================================
+//eye catch
+1. I think I am right in following case
+When I setState code for using as default value in editor i just pass variable ;
+But Ranjit bro write es6 template syntax `${code}`
+It will ignore all quote inside code. 
+
+I didn't think this things. But its really a matter. I might have get error from here. Or might be passing variable also ok. In this case;
+
+//learn
+React component life cycle;
+after every time component render react componentDidUpdate happen

@@ -1,0 +1,15 @@
+14_june
+==================================
+I got a phone call from vasanth sir
+about my responsibilty my salary.
+
+Today I completely integrate ace editor to the project. 
+
+If I make autocompletion is true i have to import following line from "brace" package.
+import 'brace/ext/language_tools';
+
+and copy snippet from another ace editor repo. (non_conflict_src/ folder) and paste in src/static folder 
+
+
+
+
