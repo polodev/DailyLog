@@ -1,0 +1,9 @@
+21_june
+==================================
+I have created a custom heatmap graph using react. in this heatmap I give border to td. In chrome and other divises it working fine but in firefox it not working.
+so I give some css to table in heatmap.less file
+
+table {
+	     empty-cells: show;
+	     border-collapse: separate;
+}

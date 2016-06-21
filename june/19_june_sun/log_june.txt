@@ -1,0 +1,20 @@
+19_june
+==================================
+//today i have learn new things about table
+1. table > td height css not working properly if i have more content inside td or th. but space is pretty less.
+to keep the height and width insight td. make a div inside td
+like table > tr > td/th > div.inside
+style will be 
+table tr td div.inside {
+	width : 100px;
+	height : 50px;
+}
+
+2. to scroll table inside mobile keep table inside a bootstrap class call .responsive-table
+
+<div class="responsive-table">
+	<table>
+		<!--what ever code you have-->
+	</table>
+</div>
+
