@@ -1,0 +1,3 @@
+22_june
+==================================
+today I have format  some api response for boxPlot . Here I have used array map and array filter effectively. File is included. Its really good way to handle data. Today I have install all tools and set environment for react native apps. 
