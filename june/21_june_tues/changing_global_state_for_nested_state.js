@@ -13,6 +13,7 @@ export default function traineeDetailsInfoReducer (state = traineeDetailsInfo, a
         {
           boxPlot : {
 	  //this is the new syntax instead of mutating we will do this way
+	  //this is the new things I learn today
             ...state.boxPlot,
             data: action.response
           }
