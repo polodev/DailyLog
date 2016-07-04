@@ -1,0 +1,9 @@
+4 july monday
+==================================
+Today I have worked with react native text border in middle. react native only support in view border. so I did a little tricks. used a view > 3 view.
+flex direction i give it to "row".
+in middle view i give border thats all.
+I have attached file with this.
+
+Yesterday I worked on generic component view
+I have attached generic component view Today.
