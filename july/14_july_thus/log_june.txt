@@ -1,0 +1,5 @@
+14 july thusday
+==================================
+1. When I changed something which may be related with other component for in order to check that i should use sublime text Search directory. <From Ranjith bro>
+
+2. in android there in no shadowColor and shadowSomething available in react native. To get some shadow effect I have to use elevation. elevation will give you some kind of shadow(only black);
