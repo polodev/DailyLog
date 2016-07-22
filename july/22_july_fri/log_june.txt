@@ -1,0 +1,10 @@
+22 july file
+==================================
+1. in order to show the network call inside chrome for react native little hack have to write inside App.js (Appregistry > setup>app). If you not want to show just comment this
+ delete GLOBAL.XMLHttpRequest; 
+
+
+ 19 july
+ 1. I added swiper navigation in course view and quiz view using react-native-swiper. I am added the code
+
+
