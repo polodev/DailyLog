@@ -1,0 +1,4 @@
+23 july sat
+==================================
+1. Today I have face a problem with ndk compitability in android studio > gradle.properties. Actually what happened react-native-push-notification or RNsound need ndk. but new gradle version is not compitable with ndk things. So to solve this I had to write following code in gradle.properties.
+android.useDeprecatedNdk=true
