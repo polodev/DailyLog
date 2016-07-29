@@ -1,0 +1,3 @@
+29 july fri
+==================================
+Today I have implemented very complex way to show something in react dangerouslySetInnerHtml. normally dangerouslySetInnerHtml is like vanilla javascript innerHtml. So its not supporting some tag like <Script/>. so this is the very complex and creative way to show something in react. I have added the graph file where I use this dangerouslySetInnerHtml things.
