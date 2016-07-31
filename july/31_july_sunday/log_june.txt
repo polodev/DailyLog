@@ -1,0 +1,7 @@
+31 july sun
+==================================
+Today I have made a fill in banks by generating dynamic content. and it will also can store data to the state. partially implemented.
+
+nice box shadow css added
+
+Made a Dynamic table which will get array and noOfColumn as props and show accordingly.
