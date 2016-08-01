@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>js practice</title>
+</head>
+<body>
+  
+<script>
+gyms = [
+  {
+    id : 1001,
+    type : "count_by_number",
+    name : "Push Up",
+    target : 100,
+    completed : 50
+  },
+  {
+    id : 1002,
+    type : "count_by_number",
+    name : "Squat",
+    target : 90,
+    completed : 40
+  },
+  {
+    id : 1003,
+    type : "count_by_number",
+    name : "Bench",
+    target : 60,
+    completed : 20
+  },
+  {
+    id : 1004,
+    type : "count_by_number",
+    name : "Plank",
+    target : 70,
+    completed : 20
+  },
+  {
+    id : 1005,
+    type : "count_by_minute",
+    name : "Running",
+    target : 30,
+    completed : 10
+  },
+]
+
+function creatGym(gym) {
+  let gymsCreate = gyms.concat(gym);
+  console.log("after create", gymsCreate);
+}
+creatGym({
+    id : 1006,
+    type : "count_by_minute",
+    name : "createGym",
+    target : 30,
+    completed : 10
+})
+
+function readGym(gymId) {
+  let gym =  gyms.filter(function (gym) {
+    return gym.id === gymId
+  })
+  console.log("read gym", gym[0]);
+}
+readGym(1004)
+
+
+function updateGym(gymId, newGym) {
+  let gym =  gyms.filter(function (gym) {
+    return gym.id === gymId
+  })
+  let beforeUpdate =  gyms.filter(function (gym) {
+    return gym.id !== gymId
+  })
+  let updateGym = beforeUpdate.concat(newGym);
+  console.log("updateGym", updateGym);
+}
+
+updateGym(1004, {
+    id : 1010,
+    type : "count_by_number",
+    name : "updateGym",
+    target : 30,
+    completed : 10
+})
+
+
+
+function deleteGym (gymId) {
+  let beforeDelete =  gyms.filter(function (gym) {
+    return gym.id !== gymId
+  })
+  console.log("deleteGym", beforeDelete);
+}
+
+deleteGym(1001)
+  
+</script>
+</body>
+</html>

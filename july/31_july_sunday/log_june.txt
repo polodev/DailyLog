@@ -5,3 +5,5 @@ Today I have made a fill in banks by generating dynamic content. and it will als
 nice box shadow css added
 
 Made a Dynamic table which will get array and noOfColumn as props and show accordingly.
+
+make workout crud logic in js in single page html workout.js
