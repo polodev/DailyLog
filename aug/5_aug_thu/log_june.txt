@@ -1,0 +1,3 @@
+5 aug fri
+==================================
+to make image circle, responsive, text center some css. I already know this stuff but for quick ref i am commiting these. I have attched.
