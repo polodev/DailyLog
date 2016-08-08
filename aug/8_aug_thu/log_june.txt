@@ -1,0 +1,4 @@
+8 aug sun
+==================================
+Today I have Learn How to make a basic animation for HTMLinnerText using jquery animate function .
+I have added code snippet
