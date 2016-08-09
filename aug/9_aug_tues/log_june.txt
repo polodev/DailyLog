@@ -1,0 +1,4 @@
+9 aug tues
+==================================
+Google map api with multiple marker
+I have added the code
