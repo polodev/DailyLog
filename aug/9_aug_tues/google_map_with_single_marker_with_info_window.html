@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google map api</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+      .map-wrapper {
+        height :  100vh;
+      }
+    </style>
+</head>
+<body>
+<div class="map-wrapper">
+    <div id="map"></div>
+</div>
+        <script>
+          // If you're adding a number of markers, you may want to drop them on the map
+          // consecutively rather than all at once. This example shows how to use
+          // window.setTimeout() to space your markers' animation.
+          var neighborhoods = [
+              {lat: 17.4139267, lng: 78.3231529},
+              {lat: 12.9347572, lng: 77.5349759},
+              {lat: 19.1251012, lng: 72.8875394},
+              {lat: 28.4129529, lng: 77.0416121}
+          ];
+
+          function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 5,
+              center: {lat: 19.4716845, lng: 76.446820075}
+            });
+            var infoWindowMumbaiContent = "<div>Mumbai <br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, ipsam.</div>"
+            var infoWindowMumbai = new google.maps.InfoWindow({
+              content: infoWindowMumbaiContent
+            });
+            var marker = new google.maps.Marker({
+                position: {lat: 19.1251012, lng: 72.8875394} ,
+                map: map,
+                animation: google.maps.Animation.DROP,
+                infoWindow : infoWindowMumbai,
+                title : "Mumbai City"
+              })
+            marker.addListener('click', function() {
+              infoWindowMumbai.open(map, marker);
+            });
+            //another way to add click event to marker
+            // google.maps.event.addListener(marker, 'click', function() {
+            //       this.infowindow.open(map, this);
+            // });
+            map.setOptions({
+                minZoom : 4
+            })
+          }
+
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8gAZqyCGt3EDsURuS6tDO9yfviR2eNIg&callback=initMap"
+        async defer></script>
+</body>
+</html>
