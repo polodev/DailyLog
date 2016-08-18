@@ -1,0 +1,3 @@
+18 aug thus
+==================================
+in this profile page I implemented a preview pan for load more. that is really outstanding work from me. It complex but I made it easy by splitting plan. Its fade out to bottom gradually. I have added this file 
