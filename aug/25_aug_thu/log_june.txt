@@ -1,0 +1,5 @@
+25 aug thus
+==================================
+maded 3 function for name email and phone number validation 
+here I am using regex. Which I didn't understand yet.
+I have attached this file.
