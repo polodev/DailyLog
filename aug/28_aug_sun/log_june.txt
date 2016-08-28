@@ -1,0 +1,8 @@
+28 aug sun
+==================================
+
+I am going through udacity object oriented design in javascript
+here their requirement is cat clicker
+I have added multiple cat clicker;
+
+

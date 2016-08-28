@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="catWrapper">hello worl</div>
+  <script>
+    /*cat clicker 2*/
+var cats = [
+  {
+    catname : 'bob',
+    catid : 'bob',
+    catimage : "https://lh3.ggpht.com/nlI91wYNCrjjNy5f-S3CmVehIBM4cprx-JFWOztLk7vFlhYuFR6YnxcT446AvxYg4Ab7M1Fy0twaOCWYcUk=s0#w=640&h=<426></426>",
+  },
+  {
+    catname : 'john',
+    catid : 'john',
+    catimage : "https://lh3.ggpht.com/nlI91wYNCrjjNy5f-S3CmVehIBM4cprx-JFWOztLk7vFlhYuFR6YnxcT446AvxYg4Ab7M1Fy0twaOCWYcUk=s0#w=640&h=<426></426>",
+  },
+  {
+    catname : 'pepsi',
+    catid : 'pepsi',
+    catimage : "https://lh3.ggpht.com/nlI91wYNCrjjNy5f-S3CmVehIBM4cprx-JFWOztLk7vFlhYuFR6YnxcT446AvxYg4Ab7M1Fy0twaOCWYcUk=s0#w=640&h=<426></426>",
+  },
+  {
+    catname : 'coke',
+    catid : 'coke',
+    catimage : "https://lh3.ggpht.com/nlI91wYNCrjjNy5f-S3CmVehIBM4cprx-JFWOztLk7vFlhYuFR6YnxcT446AvxYg4Ab7M1Fy0twaOCWYcUk=s0#w=640&h=<426></426>",
+  },
+
+]
+
+$catWrapper = $('#catWrapper');
+var li;
+var ul = $('<ul></ul>')
+var counter = {}
+for(var i = 0; i < cats.length; i++) {
+  li = $('<li id="'+ cats[i].catname +'"></li>');
+  p1 = $('<p>Cat Name : '+ cats[i].catname + '</p>');
+  p2 = $('<img src="'+ cats[i].catimage +'" alt="" />');
+  li.append(p1)
+  li.append(p2)
+  ul.append(li)
+  counter[cats[i].catname] = 0;
+}
+$catWrapper.html(ul)
+console.log("counter", counter);
+
+function consoleCounter(id) {
+  console.log(id, counter[id]);
+}
+
+$catWrapper.on('click', function(e) {
+  var li = e.target.closest('li');
+  var liId = $(li).attr('id');
+  counter[liId] = counter[liId] + 1;
+  consoleCounter(liId);
+})
+  </script>
+</body>
+</html>
