@@ -55,10 +55,12 @@ function consoleCounter(id) {
 }
 
 $catWrapper.on('click', function(e) {
-  var li = e.target.closest('li');
-  var liId = $(li).attr('id');
-  counter[liId] = counter[liId] + 1;
-  consoleCounter(liId);
+    if(e.target.src) {
+      var li = e.target.closest('li');
+      var liId = $(li).attr('id');
+      counter[liId] = counter[liId] + 1;
+      consoleCounter(liId);
+    }
 })
   </script>
 </body>
