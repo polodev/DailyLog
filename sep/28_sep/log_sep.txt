@@ -1,0 +1,3 @@
+september 28, 2016
+============================
+Today I have sorted array of object based on date. There was problem was with date. every date has some suffix like st,  rd, nd. so first I have replace those suffix then change sort using js sort function. I have attached file with this
