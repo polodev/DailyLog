@@ -1,0 +1,7 @@
+oct 8, 2016
+============================
+today I have work on form. I can use google form to any custom page but problem is no failure case can't be handle
+
+another this i learned today 
+css pointer-events : none;
+
