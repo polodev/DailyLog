@@ -1,0 +1,6 @@
+oct 26, 2016
+============================
+to get the previous location we can pass through link query
+query={{ prevPath: this.props.location.pathname  }} 
+I have attached a link
+        
