@@ -1,0 +1,4 @@
+oct 29, 2016
+============================
+today I have used regular expression to change a string untill a matching character
+I am attached file

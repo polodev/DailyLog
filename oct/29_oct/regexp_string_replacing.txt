@@ -1,0 +1,13 @@
+let myString = "Events: Dhaka Bangladesh";
+var result = myString.replace(/(\w+)\b:/, "");
+console.log(result);
+
+//another example sorter version
+let myString = "Events: Dhaka Bangladesh";
+var result = myString.replace(/.+\b:/, "");
+console.log(result);
+
+
+
+
+  
