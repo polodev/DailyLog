@@ -1,0 +1,5 @@
+23 December 2016
+==========================
+today I have customized a github npm package(single page) for react native.
+react native image slider. Its a basic slider which listen to on click. So onClick it will open a new model with same slider. 
+I have attached this with file
