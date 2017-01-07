@@ -1,0 +1,51 @@
+cloth:
+============
+5 abof shirt
+4 abof tshirt
+2 bangladeshi shirt (more button and oxygen)
+2 trendz tshirt
+1 black pant
+3 oscar pant
+1 trendz pant
+1 gamcha
+
+product:
+========
+wheat grass
+blender
+dr reddy ..
+my 2 watch
+
+
+
+book:
+====
+how to read english newspaper
+saifurs vocabulary
+rapidex hindi
+telegu learning book
+you can heal your life 
+python algorithm book
+salesman
+dynamic memory
+
+electronics:
+=============
+my 2 laptop with charger
+my samsung mobile with charger with box
+my ipod with box
+my 3 headphone 
+palash headphone
+
+commodity:
+2 comb
+pears soap
+nivea spray
+nivea mans cream 
+vega foot
+2 derma roller
+
+
+
+
+// have to be super learner
