@@ -5,13 +5,18 @@ cloth:
 2 bangladeshi shirt (more button and oxygen)
 2 trendz tshirt
 1 black pant
-3 oscar pant
+4 oscar pant
 1 trendz pant
 1 gamcha
+2 jockey sports half pant
+1 jockey under pant
 
 product:
 ========
-wheat grass
+4 wheat grass
+olive oli
+lavender oil
+emu oil
 blender
 dr reddy ..
 my 2 watch
